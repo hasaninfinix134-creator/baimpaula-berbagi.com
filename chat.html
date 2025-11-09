@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giveaway Baim Wong</title>
+    <style>
+
+.congrats {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 12px;
+    opacity: 0;
+    animation: fadeBounce 1.2s ease-out forwards;
+}
+@keyframes fadeBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.8);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(10px) scale(1.1);
+    }
+    80% {
+        transform: translateY(-5px) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 60px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 1.6em;
+            margin-bottom: 8px;
+            color: #222;
+        }
+        p {
+            color: #555;
+            margin-bottom: 24px;
+        }
+        .wa-btn {
+            display: inline-block;
+            background: #25D366;
+            color: #fff;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .wa-btn:hover {
+            background: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="congrats">Selamat!</div>
+        <img src="download.jpeg" alt="Baim Wong" class="profile-img">
+        <h1>Giveaway Baim Wong</h1>
+        <p>Ikuti giveaway spesial dari Baim Wong! Klik tombol di bawah untuk chat langsung di WhatsApp dan dapatkan kesempatan menang hadiah menarik.</p>
+        <a class="wa-btn" href="https://wa.me/83125509256?text=Halo%2C%20saya%20ingin%20ikut%20giveaway%20Baim%20Wong." target="_blank">
+            Chat saya di WhatsApp
+        </a>
+    </div>
+</body>
+</html>
